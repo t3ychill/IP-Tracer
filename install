@@ -8,7 +8,7 @@ if [ -e  /usr/lib/sudo ];then
      sudo apt-get upgrade -y
      sudo apt-get install php -y
      sudo apt-get install php5 -y
-   fi
+   fi222
 else
   if [ -d /usr/bin ];then
     if [ ! -e /usr/bin/php ];then
